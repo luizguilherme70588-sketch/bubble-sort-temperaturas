@@ -1,56 +1,110 @@
-Sistema de Controle de Temperaturas com Bubble Sort
-Instituição: UDF — Centro Universitário do Distrito Federal
+# Sistema de Controle de Temperaturas com Bubble Sort
 
-Disciplina: Algoritmos e Pensamento Computacional
+**Instituição:** UDF — Centro Universitário do Distrito Federal
 
-Professora: Profa. Karla R. Sartin
+**Disciplina:** Algoritmos e Pensamento Computacional
 
-Integrantes:
+**Professora:** Profa. Karla R. Sartin
 
-[Vinicius Golberto Apolinario]
-[Luiz guilherme Neres Braz]
-1. Contextualização
-A medição de temperaturas é importante no cotidiano, como no acompanhamento das condições climáticas e no monitoramento de ambientes.
+**Integrantes:**
+- [Nome completo do integrante 1]
+- [Nome completo do integrante 2]
+- [Nome completo do integrante 3]
+- [Nome completo do integrante 4]
 
-Este projeto organiza dez temperaturas utilizando o algoritmo Bubble Sort, facilitando a identificação dos menores e maiores valores.
+## 1. Contextualização
 
-2. Objetivo
-Desenvolver um programa em linguagem C que receba dez temperaturas e organize os valores em ordem crescente.
+A medição de temperaturas é importante em diversas situações do cotidiano, como o acompanhamento das condições climáticas, o controle de ambientes e o monitoramento de equipamentos.
 
-3. Funcionamento do programa
-O programa armazena dez temperaturas em um array, mostra os valores digitados e utiliza o Bubble Sort para ordená-los.
+Entretanto, quando várias temperaturas são registradas, pode ser necessário organizar esses valores para facilitar a análise e a identificação das menores e maiores temperaturas.
 
-O algoritmo compara elementos adjacentes. Quando o valor atual é maior que o próximo, realiza a troca utilizando uma variável auxiliar.
+Este projeto apresenta um programa desenvolvido em linguagem C que recebe dez temperaturas e utiliza o algoritmo Bubble Sort para organizar os valores em ordem crescente.
 
-Ao final, as temperaturas são exibidas em ordem crescente.
+## 2. Objetivo
 
-4. Tecnologias utilizadas
-Linguagem C
-Git
-GitHub
-Compilador GCC ou OnlineGDB
-5. Como executar
-Compile com:
+Desenvolver uma aplicação em linguagem C que utilize arrays, estruturas de repetição, estruturas condicionais e o algoritmo Bubble Sort para ordenar dez temperaturas em ordem crescente.
 
-gcc temperaturas.c -o temperaturas
-No Linux, execute:
+## 3. Funcionamento do programa
 
-./temperaturas
-No Windows, execute:
+O programa solicita ao usuário dez valores de temperatura em graus Celsius.
 
-temperaturas.exe
-6. Exemplo de entrada
-28, 19, 35, 22, 16, 30, 25, 18, 33, 21
-7. Exemplo de saída
-16.00
-18.00
-19.00
-21.00
-22.00
-25.00
-28.00
-30.00
-33.00
-35.00
-8. Considerações finais
-O projeto demonstra a utilização de arrays, estruturas de repetição, condicionais e trocas de elementos por meio do algoritmo Bubble Sort em uma situação cotidiana.
+Inicialmente, os valores são armazenados em um array e exibidos na ordem em que foram digitados.
+
+Em seguida, o algoritmo Bubble Sort compara os elementos adjacentes do array. Quando um elemento é maior que o próximo, os dois valores trocam de posição utilizando uma variável auxiliar.
+
+Esse processo é repetido até que todas as temperaturas estejam organizadas em ordem crescente.
+
+Por fim, o programa exibe os valores ordenados no terminal.
+
+## 4. Algoritmo Bubble Sort
+
+O Bubble Sort é um algoritmo de ordenação que realiza comparações entre elementos vizinhos de um array.
+
+Neste projeto, a condição utilizada é:
+
+    temperaturas[j] > temperaturas[j + 1]
+
+Quando essa condição é verdadeira, os elementos são trocados.
+
+O algoritmo utiliza dois laços de repetição: um para controlar as passagens pelo array e outro para comparar os elementos adjacentes.
+
+A ordenação implementada é crescente, da menor para a maior temperatura.
+
+## 5. Tecnologias utilizadas
+
+- Linguagem de programação C
+- Compilador GCC ou equivalente
+- Git para controle de versão
+- GitHub para armazenamento e compartilhamento do projeto
+- OnlineGDB para testes, caso utilizado
+
+## 6. Como compilar e executar
+
+É necessário possuir um compilador de linguagem C instalado.
+
+Para compilar o programa com GCC, utilize:
+
+    gcc temperaturas.c -o temperaturas
+
+No Linux, execute com:
+
+    ./temperaturas
+
+No Windows, execute com:
+
+    temperaturas.exe
+
+O programa também pode ser testado em um compilador online compatível com a linguagem C.
+
+## 7. Exemplo de entrada
+
+As dez temperaturas informadas pelo usuário:
+
+    28, 19, 35, 22, 16, 30, 25, 18, 33, 21
+
+## 8. Exemplo de saída
+
+Temperaturas em ordem crescente:
+
+    16.00 graus Celsius
+    18.00 graus Celsius
+    19.00 graus Celsius
+    21.00 graus Celsius
+    22.00 graus Celsius
+    25.00 graus Celsius
+    28.00 graus Celsius
+    30.00 graus Celsius
+    33.00 graus Celsius
+    35.00 graus Celsius
+
+## 9. Considerações finais
+
+O desenvolvimento deste projeto permite aplicar conceitos fundamentais de lógica de programação, como arrays, variáveis, estruturas condicionais e laços de repetição.
+
+A implementação do Bubble Sort demonstra como os elementos de um conjunto de dados podem ser comparados e trocados para obter uma ordenação crescente.
+
+A aplicação também mostra como um algoritmo de ordenação pode ser utilizado em uma situação prática do cotidiano, facilitando a organização e a análise de informações.
+
+## 10. Histórico de desenvolvimento
+
+O desenvolvimento do projeto será registrado no GitHub por meio de commits que representem alterações reais no código, nos testes e na documentação.
