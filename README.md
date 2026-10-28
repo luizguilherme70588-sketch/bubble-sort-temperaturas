@@ -7,10 +7,8 @@
 **Professora:** Profa. Karla R. Sartin
 
 **Integrantes:**
-- [Nome completo do integrante 1]
-- [Nome completo do integrante 2]
-- [Nome completo do integrante 3]
-- [Nome completo do integrante 4]
+- [Vinicius Golberto Apolinario]
+- [Luiz Guilherme Neres Braz]
 
 ## 1. Contextualização
 
